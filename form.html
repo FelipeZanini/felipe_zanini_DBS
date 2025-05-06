@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Share knowledge, book club, connecting readers along Dublin, Ireland">
+    <meta name="keywords" content="book club, meet new people, share stories, make new friends, ireland, dublin">
+    <script src="https://kit.fontawesome.com/7f8308ff5d.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="css.css">
+    <title>Share knowledge</title>
+</head>
+
+
+<body>
+    <!-- Header element, contains a background image, the title as the nav menu. -->
+    <header id="background-image">
+        <h1 id="logo" class="horizontal-align vertical-align">Share knowledge</h1>
+        <nav id="nav-menu" aria-label="navegation links">
+            <ul id="nav-links">
+                <li><a href="index.html" aria-label="go to home page">Home</a></li>
+                <li><a href="index.html#reason-box-title" aria-label="go to reasons section">Reasons</a></li>
+                <li><a href="form.html" aria-label="go to sign up form" class="actived">Sign Up</a></li>
+                <li><a href="index.html#meet-box" aria-label="go to meet up section">Meet Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Form Section with name, password and email address-->
+        <form id="form" aria-label="form for sign up">
+            <fieldset>
+                <legend id="form-elements">Sign Up</legend>
+
+                <label for="name" class="input-style">Username</label>
+                <input type="text" id="name" class="block-level" name="username" placeholder="Username" required>
+
+                <label for="password" class="input-style">Password</label>
+                <input type="password" id="password" class="block-level" name="password" placeholder="Password"
+                    required>
+
+                <label for="email" class="input-style">E-mail</label>
+                <input type="email" id="email" class="block-level" name="e-mail" placeholder="E-mail" required>
+
+                <input type="submit" class="block-level" value="Confirm">
+
+            </fieldset>
+        </form>
+    </main>
+    <!-- Footer section, with the social media links. -->
+    <footer aria-label="social media links">
+        <ul id="media-box">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank"
+                    aria-label="open a new tab of our facebook webpage"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank"
+                    aria-label="open a new tab of our instagram webpage"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/" target="_blank" aria-label="open a new tab of our twitter webpage"><i
+                        class="fab fa-twitter-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
