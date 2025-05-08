@@ -1,0 +1,705 @@
+/* Generic Style Elements */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #fffbc2;
+    font-family: "Oswald", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* Style for logo */
+#logo {
+    height: 150px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Horizontal and vertical align rules */
+.horizontal-align {
+    text-align: center;
+}
+
+.vertical-align {
+    position: relative;
+    top: 30%;
+}
+
+/* background image for the header */
+#background-image {
+
+    background-image: url(../images/book.coffee.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* background image for the why */
+.background-image-reasons {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+
+    
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.carousel-images > img {
+    width: 100%;
+height: 650px;
+object-fit: cover;}
+    
+}
+
+.center-text {
+
+    display: flex; justify-content: center; align-items: center
+}
+
+/* Style for navegation menu */
+#nav-menu {
+    height: 44px;
+
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+/* Navegation links centering rule */
+#nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 0;
+    list-style-type: none;
+}
+
+#nav-links li {
+    display: inline-block;
+}
+
+#nav-links a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 7px 7px;
+    color: white;
+}
+
+/* Navegation links hover pseudo class style */
+#nav-links a:hover {
+    text-decoration: none;
+    letter-spacing: 3.2px;
+    margin: 8px 8px;
+    color: green;
+}
+
+.actived {
+    border-bottom: 1px solid white;
+}
+
+/* Join us section, text and background image style */
+#about-box {
+    height: 600px;
+    width: 100%;
+
+    position: relative;
+    background-color: #fffbc2;
+}
+
+/* Image of about section style */
+#image-about {
+    width: 50%;
+    height: 60%;
+
+    padding: 15px;
+    background-image: url(../images/book-3387071_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+/* Text of about section style */
+#text-about-box {
+    width: 50%;
+    height: 60%;
+
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1.5px;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#text-about-box p,
+h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+#text-about-box p {
+    margin: 50px;
+    font-size: 110%;
+}
+
+#text-about-box h3 {
+    font-size: 180%;
+    padding-top: 25px;
+}
+
+/* Reason box styling using flexbox*/
+#reason-container {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    flex-wrap: wrap;
+    background-image: url(../images/bookreason.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#reason-box-title {
+    color: white;
+    font-size: 170%;
+    margin: 0;
+    text-align: center;
+}
+
+#reason-box-title>h3 {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border: 2px solid black;
+
+}
+
+/* Elements of reasons sections */
+.reason-box {
+    width: 350px;
+    height: 220px;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.822);
+    border: 2px solid black;
+    margin: 35px 60px;
+    border-radius: 70px;
+}
+
+.reason-box>p {
+    width: 60%;
+
+    margin: 0 auto;
+    text-align: center;
+    font-size: 110%;
+}
+
+.reason-box>h3 {
+    font-size: 140%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Meet up box style */
+
+/* Meet up block, and background image */
+#meet-box {
+    height: 500px;
+    width: 100%;
+
+    position: relative;
+    background-image: url(../images/meet-up.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Meet up text position and styling */
+#meet-text {
+    height: 150px;
+    width: 95%;
+
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    transform: translate(-30%, -50%);
+    font-size: 170%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    color: white;
+}
+
+/* Meet aside, quote of Margaret Fuller */
+#meet-aside {
+    width: 80%;
+    height: 80px;
+
+    text-align: center;
+    font-size: 110%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+#meet-aside>p {
+    padding-top: 12px;
+}
+
+#meet-aside>p {
+    padding-top: 12px;
+}
+
+
+/* Map sizing block */
+#map {
+    width: 100%;
+    height: 250px;
+}
+
+/* Social media links (used font awesome to style it) */
+#media-box {
+    width: 100%;
+
+    text-align: center;
+    list-style-type: none;
+    background-color: #000000;
+    margin: 0;
+}
+
+#media-box>li {
+    font-size: 200%;
+    display: inline-block;
+    margin: 0 16px;
+    padding: 12px;
+}
+
+#media-box a {
+    color: white;
+}
+
+/* Hover for social media links */
+#media-box a:hover {
+    color: rgb(15, 13, 13);
+}
+
+/* form style and background image */
+#form {
+    height: 630px;
+
+    background-image: url(../images/coffee-2306471_960_720.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#form-elements {
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-size: 200%;
+}
+
+fieldset {
+    height: 350px;
+    width: 350px;
+
+    position: relative;
+    top: 70px;
+    left: 140px;
+    border: 1.5px solid black;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+}
+
+.input-style {
+    font-size: 120%;
+}
+
+.block-level {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    height: 30px;
+    width: 200px;
+    
+    background: transparent;
+    background-color: #eeeeee7d;
+    color: rgb(23, 20, 20);
+}
+
+input[type=submit] {
+    height: 27px;
+    width: 65px;
+
+    font-size: 100%;
+    border-radius: 5px;
+    color: green;
+    background-color: #eeeeee7d;
+    ;
+}
+
+/* Hover for elements of form section */
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=password]:hover {
+    height: 35px;
+    width: 205px;
+    background: transparent;
+    background-color: #a5f1c47d;
+    color: rgb(23, 20, 20);
+}
+
+input[type=submit]:hover {
+    height: 29px;
+    width: 67px;
+
+    border-radius: 5px;
+    color: red;
+    background-color: #eeeeee7d;
+    ;
+}
+
+.input-style,
+.block-level {
+    margin-left: 25px;
+    color: white;
+}
+
+/* Media queries */
+@media screen and (max-width:1074px) {
+    #reason-box-title>h3 {
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    #reason-container {
+        padding: 0;
+    }
+
+    .reason-box {
+        margin: 10px 14px;
+    }
+
+    #text-about-box,
+    #image-about {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #reason-box-title>h3 {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:810px) {
+    #reason-box-title>h3 {
+        font-size: 110%;
+        width: 80%;
+    }
+
+    #text-about-box p {
+        margin: 25px;
+    }
+
+    #text-about-box,
+    #image-about {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:762px) {
+    .reason-box {
+        width: 40%;
+        margin: 0px 12px;
+    }
+
+    #nav-links a {
+        margin: 4px 4px;
+    }
+}
+
+@media screen and (max-width:640px) {
+
+    #about-box {
+        height: 490px;
+    }
+
+    #text-about-box,
+    #image-about {
+        width: 80%;
+        height: 80%;
+    }
+
+    #text-about-box h3 {
+        padding-top: 33px;
+    }
+
+    .reason-box {
+        width: 40%;
+        margin: 0px 12px;
+        border-radius: 40px;
+    }
+
+    .reason-box>p {
+        width: 80%;
+        font-size: 90%;
+    }
+
+    .reason-box>h3 {
+        margin-top: 26px;
+        margin-bottom: 6px;
+        padding: 6px;
+        font-size: 130%;
+    }
+
+    #nav-menu {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #meet-text>h3 {
+        font-size: 100%;
+    }
+
+    #meet-text>p {
+        font-size: 80%;
+    }
+
+    #meet-aside {
+        font-size: 90%;
+    }
+
+    fieldset {
+        height: 320px;
+        width: 280px;
+        position: relative;
+        top: 8%;
+        left: 7%;
+    }
+}
+
+@media screen and (max-width:370px) {
+
+    #nav-links {
+        position: absolute;
+        left: 0%;
+        transform: translateX(-0%);
+        padding: 12px 24px;
+    }
+
+    #nav-links a {
+        margin: 5px 5px;
+    }
+
+    /* About Box style */
+    #about-box {
+        height: 450px;
+    }
+
+    #image-about {
+        width: 80%;
+        height: 60%;
+    }
+
+    #text-about-box {
+        width: 80%;
+        height: 60%;
+        padding: 15px;
+    }
+
+    #text-about-box p {
+        margin: 20px;
+        font-size: 90%;
+    }
+
+    #text-about-box h3 {
+        font-size: 150%;
+        padding-top: 25px;
+    }
+
+    /* Reason Box Title */
+    #reason-container {
+        padding: 22px;
+        height: 500px;
+    }
+
+    #reason-box-title {
+        border-radius: 10px;
+        font-size: 130%;
+        color: white;
+        text-align: center;
+    }
+
+    #reason-box-title>h3 {
+        width: 90%;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding-top: 10px;
+        border: 2px solid black;
+    }
+
+    .reason-box {
+        width: 45%;
+        height: 190px;
+
+        color: white;
+        border: 2px solid black;
+        margin: 5px 5px;
+        border-radius: 10px;
+    }
+
+    .reason-box>p {
+        width: 80%;
+
+        margin: 0 auto;
+        text-align: center;
+        font-size: 90%;
+    }
+
+    .reason-box>h3 {
+        font-size: 130%;
+        margin-top: 14px;
+        margin-bottom: 8px;
+    }
+
+    /* meet up box style */
+    #meet-text>h3 {
+        font-size: 90%;
+    }
+
+    #meet-text>p {
+        font-size: 70%;
+    }
+
+    #meet-aside {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #logo {
+        font-size: 200%;
+    }
+
+    #nav-menu {
+        white-space: normal;
+        height: 54px;
+    }
+
+    #nav-links {
+        padding: 10px 0;
+    }
+
+    #nav-links a {
+        margin-left: 12px;
+        font-size: 80%;
+    }
+
+    #text-about-box p {
+        font-size: 80%;
+        margin: 0;
+    }
+
+    #text-about-box h3 {
+        padding-top: 0;
+        font-size: 140%;
+
+    }
+
+    .reason-box {
+        width: 100%;
+        height: 200px;
+        background-image: url(../images/bookreason.jpg);
+
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .reason-box h3,
+    .reason-box p {
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 8px;
+    }
+
+    #reason-container {
+        background-image: none;
+        height: 900px;
+    }
+
+    #media-box>li {
+        font-size: 150%;
+        margin: 0;
+    }
+
+    #meet-aside {
+        height: 100px;
+    }
+
+    fieldset {
+        height: 320px;
+        width: 130px;
+        top: 10%;
+        left: 3%;
+
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=password] {
+        width: 160px;
+    }
+
+    .input-style,
+    .block-level {
+        margin: 5px 10px;
+    }
+}
+
+@media screen and (min-width:1539px) {
+
+    .reason-box {
+        width: 50%;
+        height: 140px;
+        margin: 40px auto;
+    }
+
+    #reason-container {
+        display: inline;
+    }
+}
