@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #fffbc2;
+    background-color: #ffffff;
     font-family: "Oswald", sans-serif;
 }
 
@@ -23,6 +23,42 @@ html {
   align-items: center;
 }
 
+#benefits-section {
+    background-image: url(/assets/clover.avif);
+    background-color: black;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#map-section{
+
+    background-image: url(/assets/guiness.avif);
+    background-color: black;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:30px;
+    width:100%;
+    height:435px;
+}
+
+#benefits-section > h3 {
+   padding-top: 30px;
+}
+
+.side-photos {
+    height: 213px;
+    width: 213px;
+}
+
+.main-photo {
+    height: 426px!important;
+    width: 213px;
+}
 /* Horizontal and vertical align rules */
 .horizontal-align {
     text-align: center;
@@ -37,6 +73,7 @@ html {
     text-align: center;
     padding: 20px;
 }
+
 
 /* background image for the header */
 #background-image {
@@ -101,6 +138,19 @@ font-size: 80%;
 
 #nav-links li {
     display: inline-block;
+}
+
+/* gallery */
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+
+}
+
+#photos > img {
+    width: 100%;
 }
 
 #nav-links a {
@@ -295,6 +345,7 @@ h3 {
 
 /* Map sizing block */
 #map {
+    padding-top:25px;
     width: 100%;
     height: 250px;
 }
@@ -329,7 +380,7 @@ h3 {
 #form {
     height: 630px;
 
-    background-image: url(../images/coffee-2306471_960_720.jpg);
+    background-image: url(/assets/toalha.jpg);
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
@@ -420,6 +471,10 @@ input[type=submit]:hover {
         width: 50%;
     }
 
+    #photos {
+    column-count: 3;
+ }
+
     #reason-container {
         padding: 0;
     }
@@ -445,6 +500,10 @@ input[type=submit]:hover {
         font-size: 110%;
         width: 80%;
     }
+
+    #photos {
+        column-count: 2;
+     }
 
     #text-about-box p {
         margin: 25px;
