@@ -5,26 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Share knowledge, book club, connecting readers along Dublin, Ireland">
-    <meta name="keywords" content="book club, meet new people, share stories, make new friends, ireland, dublin">
+    <meta name="description"
+        content="Fáilte Hotel & Spa, Hotel & Spa , Galway Bed and Breakfast, Accommodation near Galway beaches">
+    <meta name="keywords" content="Fáilte Hotel & Spa, Galway Bed and Breakfast, B&B in Galway City, Family-run B&B Galway, 
+    Galway Bay accommodation, B&B with sea views Galway, 
+    Bed and Breakfast near Cliffs of Moher tours, Accommodation near Galway beaches, 
+    Traditional Irish hospitality Galway, Award-winning Galway B&B, Comfortable B&B with breakfast included Galway, 
+    TripAdvisor Certificate of Excellence Galway">
 
-    <script src="https://kit.fontawesome.com/7f8308ff5d.js" crossorigin="anonymous"></script>
-
-
+    <!-- Bootstrap CSS link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fontawesome CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css.css">
     <title>Fáilte</title>
 </head>
 
 <body>
-    <!-- Header element, contains a background image, the title as the nav menu. -->
+    <!-- Header element, contains a background image, the title and the nav menu. -->
     <header id="background-image">
-        <h1 id="logo" class="horizontal-align vertical-align">Fáilte <br> Hotel & Spa </h1>
+        <h1 id="logo" class="horizontal-align vertical-align">Fáilte <br> Hotel & Spa</h1>
+
+        <!-- Nav bar, some pre-built functions from Bootstrap were used for the navigation bar. -->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html" aria-label="go to home page"><i class="fas fa-spa"></i> Home</a>
+                <a class="navbar-brand" href="index.html" aria-label="go to home page"><i class="fas fa-spa"></i>
+                    Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -32,10 +39,11 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="galery.html" class="nav-link" aria-label="go to meet up section">Galery</a>
+                            <a href="galery.html" class="nav-link" aria-label="go to gallery page">Galery</a>
                         </li>
                         <li class="nav-item">
-                            <a href="map.html" class="nav-link" aria-label="go to meet up section">Location</a>
+                            <a href="map.html" class="nav-link"
+                                aria-label="go to hotel & Spa location page">Location</a>
                         </li>
                         <li class="nav-item">
                             <a href="form.html" class="nav-link" aria-label="go to sign up form">Sign Up</a>
@@ -45,12 +53,10 @@
             </div>
         </nav>
 
-
-
-
     </header>
-    <main>
 
+    <main>
+        <!-- The pre-built carousel function from Bootstrap is used in the code below -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -65,24 +71,28 @@
                     aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
+
                 <div class="carousel-item active carousel-images">
-                    <img src="/assets/three.jpg" class="d-block" alt="...">
+                    <img src="/assets/three.jpg" class="d-block" alt="a country road lined with trees on both sides">
                     <div class="carousel-caption d-md-block">
                         <h3>A Warm Irish Welcome</h3>
                         <p>Feel instantly at home with genuine, friendly hospitality that has been perfected over 20
                             years.</p>
                     </div>
                 </div>
+
                 <div class="carousel-item carousel-images">
-                    <img src="/assets/tipic_house.jpg" d-block" alt="...">
+                    <img src="/assets/tipic_house.jpg" d-block"
+                        alt="a picture of a traditional thatched cottages in Ireland">
                     <div class="carousel-caption d-md-block">
                         <h3>Breathtaking Views</h3>
                         <p>Wake up to stunning sights of Galway Bay, where the natural beauty of the west coast meets
                             the comfort of your stay.</p>
                     </div>
                 </div>
+
                 <div class="carousel-item carousel-images">
-                    <img src="/assets/sheep.jpg" class="d-block" alt="...">
+                    <img src="/assets/sheep.jpg" class="d-block" alt="a picture of a sheep on a cliff">
                     <div class="carousel-caption d-md-block">
                         <h3>A True Taste of Galway</h3>
                         <p>Immerse yourself in local culture, from nearby coastal walks to traditional Irish pubs alive
@@ -91,7 +101,8 @@
                 </div>
 
                 <div class="carousel-item carousel-images">
-                    <img src="/assets/giant.jpg" class="d-block" alt="...">
+                    <img src="/assets/giant.jpg" class="d-block"
+                        alt="a picture of basalt columns shaped by ancient volcanic activity, known as Giant's Causeway">
                     <div class="carousel-caption d-md-block">
                         <h3>Award-Winning Experience</h3>
                         <p>Stay with confidence, knowing you're in a B&B recognized with TripAdvisor Certificates of
@@ -100,14 +111,14 @@
                 </div>
 
                 <div class="carousel-item carousel-images">
-                    <img src="/assets/open_sea.jpg" class="d-block" alt="...">
+                    <img src="/assets/open_sea.jpg" class="d-block" alt="A stuning picture of the Irish Sea">
                     <div class="carousel-caption d-md-block">
-                        <h5>BLA BLA BLA</h5>
-                        <p>IRELAND SUCKS</p>
+                        <h5>Renew Your Spirit</h5>
+                        <p>The perfect blend of relaxation, adventure, and vibrant city living</p>
                     </div>
                 </div>
-
             </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -120,93 +131,101 @@
             </button>
         </div>
 
-        </section>
 
+        <!-- Guest perks section  -->
+        <div class="container-fluid p-0 benefits-list p-3" id="benefits-section">
 
-        <div class="container-fluid p-0 benefits-list" id="benefits-section">
-<h3> What the Hotel Offers </h3>
-
-            <div class="row g-0">
-                <div class="col-lg-6 col-sm-6 benefits-list">
-                    <p> <i class="fas fa-wifi"></i> Free Wi-Fi available</p>
-                </div>
-
-                <div class="col-lg-6 col-sm-6 benefits-list">
-                    <p> <i class="fas fa-coffee"></i> Tea and coffee amenities</p>
-                </div>
-
-                <div class="col-lg-6 col-sm-6 benefits-list">
-                    <p> <i class="fas fa-wind"></i> Hair dryer in every room</p>
-                </div>
-
-                <div class="col-lg-6 col-sm-6 benefits-list">
-                    <p><i class="fas fa-utensils"></i> Breakfast included</p>
-                </div>
-
-            </div>
+            <h3>What Awaits You</h3>
 
             <div class="row g-0">
+
                 <div class="col-lg-6 col-sm-6 benefits-list">
-                    <p><i class="fas fa-temperature-high"></i> Central heating</p>
+                    <p class="perk-title"> <i class="fas fa-wifi"></i> Free Wi-Fi available</p>
+                    <p class="perk-description">Stay connected with high-speed Wi-Fi throughout the entire property</p>
                 </div>
 
                 <div class="col-lg-6 col-sm-6 benefits-list">
-                    <p> <i class="fas fa-parking"></i> Free off-street parking</p>
+                    <p class="perk-title"> <i class="fas fa-coffee"></i> Tea and coffee amenities</p>
+                    <p class="perk-description">Enjoy in-room tea and coffee making facilities for a cozy start or relaxing break anytime</p>
                 </div>
 
                 <div class="col-lg-6 col-sm-6 benefits-list">
-                    <p> <i class="fas fa-mountain"></i> Stunning views over Galway Bay</p>
+                    <p class="perk-title"> <i class="fas fa-wind"></i> Hair dryer in every room</p>
+                    <p class="perk-description">Each room is equipped with a convenient hair dryer for your comfort and ease</p>
                 </div>
 
                 <div class="col-lg-6 col-sm-6 benefits-list">
-                    <p> <i class="fas fa-bus"></i> Bus stop 50 yards away</p>
+                    <p class="perk-title"><i class="fas fa-utensils"></i> Breakfast included</p>
+                    <p class="perk-description">Start your day with a delicious, freshly prepared breakfast included in your stay</p>
+                </div>
+            </div>
+
+            <div class="row g-0">
+
+                <div class="col-lg-6 col-sm-6 benefits-list">
+                    <p class="perk-title"><i class="fas fa-temperature-high"></i> Central heating</p>
+                    <p class="perk-description">Relax in the warmth and comfort of rooms fitted with modern central heating</p>
                 </div>
 
+                <div class="col-lg-6 col-sm-6 benefits-list">
+                    <p class="perk-title"> <i class="fas fa-parking"></i> Free off-street parking</p>
+                    <p class="perk-description"> Benefit from free, private off-street parking during your visit</p>
+                </div>
+
+                <div class="col-lg-6 col-sm-6 benefits-list">
+                    <p class="perk-title"> <i class="fas fa-mountain"></i> Stunning views over Galway Bay</p>
+                    <p class="perk-description">Take in breathtaking, panoramic views of the beautiful Galway Bay right from the B&B</p>
+                </div>
+
+                <div class="col-lg-6 col-sm-6 benefits-list">
+                    <p class="perk-title"> <i class="fas fa-bus"></i> Bus stop 50 yards away</p>
+                    <p class="perk-description">Enjoy easy access to public transport with a bus stop just 50 yards from the doorstep</p>
+                </div>
             </div>
 
 
-             <div class="row g-0">
-                <div class="col-lg-6 col-sm-6 benefits-list">
-                    <p> <i class="fas fa-award"></i> TripAdvisor Certificate of Excellence</p>
-                </div>
+            <div class="row g-0">
 
                 <div class="col-lg-6 col-sm-6 benefits-list">
-                    <p> <i class="fas fa-plane"></i> Fourty Miles from Shannon Airport</p>
+                    <p class="perk-title"> <i class="fas fa-award"></i> TripAdvisor Certificate of Excellence</p>
+                    <p class="perk-description">Proudly awarded the TripAdvisor Certificate of Excellence, recognizing outstanding service and hospitality</p>
                 </div>
 
+                <div class="col-lg-6 col-sm-6 benefits-list">
+                    <p class="perk-title"> <i class="fas fa-plane"></i> Fourty Miles from Shannon Airport</p>
+                    <p class="perk-description">Conveniently located just 40 miles from Shannon Airport, making travel simple and stress-free</p>
                 </div>
-
             </div>
-
         </div>
-
-
-
-
+        </section>
     </main>
 
-    <!-- Footer section, with the social media links. -->
+    <!-- Footer section, with the social media links -->
     <footer aria-label="social media links">
         <ul id="media-box">
+
             <li>
                 <a href="https://www.facebook.com/" target="_blank"
                     aria-label="open a new tab of our facebook webpage"><i class="fab fa-facebook"></i></a>
             </li>
+
             <li>
                 <a href="https://www.instagram.com/" target="_blank"
                     aria-label="open a new tab of our instagram webpage"><i class="fab fa-instagram"></i></a>
             </li>
+
             <li>
                 <a href="https://twitter.com/" target="_blank" aria-label="open a new tab of our twitter webpage"><i
                         class="fab fa-twitter-square"></i></a>
             </li>
         </ul>
     </footer>
+
+    <!-- Bootstrap JavaScript link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous">
-    </script>
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossqorigin="anonymous"></script>
+    <!-- Fontawesome JavaScript link -->
+    <script src="https://kit.fontawesome.com/7f8308ff5d.js"></script>
 
 </body>
-
 </html>
