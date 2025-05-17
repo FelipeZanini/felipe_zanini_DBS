@@ -33,7 +33,7 @@ html {
 #benefits-section {
 
     background-position: bottom;
-    background-image: url(../assets/rose2.avif);
+    background-image: url(assets/rose2.avif);
     height: 100%;
     color: rgb(255, 255, 255);
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ html {
 #map-section {
 
     text-align: center;
-    background-image: url(../assets/guiness.avif);
+    background-image: url(assets/guiness.avif);
     background-color: black;
     height: 73vh !important;
     color: white;
@@ -91,7 +91,7 @@ html {
 
 /* background image for the header */
 #background-image {
-    background-image: url(../assets/rose.avif);
+    background-image: url(assets/rose.avif);
     background-color: #ff9696;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,7 +160,7 @@ html {
 #form {
     height: 630px;
 
-    background-image: url(../assets/toalha.jpg);
+    background-image: url(assets/toalha.jpg);
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
